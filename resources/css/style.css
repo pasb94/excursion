@@ -44,8 +44,9 @@ h2 {
     color: gray;
 }
 
-.footer-p {
-    color: gray;
+.footer--copyright {
+    color: gray; 
+    font-size: 21px;
     text-align: right;
     font-weight: bold;
 }
