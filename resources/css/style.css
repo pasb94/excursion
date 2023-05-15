@@ -1,16 +1,26 @@
 body {
     font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
-    background-color:black;
+    background-color: black;
     color: white;
     text-align: center;
 }
 
-.header--main{
+.header--main {
     font-weight: normal;
     font-size: 50px;
     color: #ffffff;
 }
-.link {
+
+.header--secondary {
+    font-weight: 300;
+    font-size: 42px;
+    color: #ffffff;
+}
+.header--sub-header {
+font-size: 21px;
+color: gray;
+}
+.link--cta {
     display: block;
     margin: auto;
     color: aquamarine;
@@ -18,10 +28,11 @@ body {
     text-decoration: underline;
 }
 
-video, img {
+video,
+img {
     display: block;
     margin: auto;
-} 
+}
 
 h2 {
     font-weight: 300;
